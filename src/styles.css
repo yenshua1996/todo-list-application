@@ -1,0 +1,7 @@
+body {
+  font-family: "roboto";
+}
+ 
+.finish{ 
+  text-decoration: line-through;
+}
