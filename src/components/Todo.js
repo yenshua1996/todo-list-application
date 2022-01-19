@@ -7,6 +7,7 @@ const Todo = ({ todo, toggle }) => {
         onClick={() => {
           toggle(todo.id);
         }}
+        className="check__btn"
       >
         Check
       </button>

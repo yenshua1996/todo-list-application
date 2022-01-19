@@ -54,7 +54,9 @@ const App = () => {
           toggle={handleToggle}
           filter={handleFilter}
         />
-        <button onClick={handleFilter}>Delete Finish Todo</button>
+        <button className="clear_btn" onClick={handleFilter}>
+          Clear Todo
+        </button>
       </div>
     </div>
   );
